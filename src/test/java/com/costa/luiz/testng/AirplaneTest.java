@@ -15,6 +15,7 @@ public class AirplaneTest {
     @Feature("Engine")
     @Test(dataProvider = "engineProvider")
     public void engine(String engine, int power) {
+        System.out.println("Tested by Dhiman ");
         //Dummy code
         Assert.assertTrue(nonNull(engine) && power > 90);
     }
