@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 import static java.util.Objects.nonNull;
 
 public class AirplaneTest {
+	
+	@Test
 
     @Severity(SeverityLevel.BLOCKER)
     @Feature("Engine")
